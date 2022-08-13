@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'); /* Copiado do google fonts */
+
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; /* Copiado do google fonts */
+	font-size: 1em; /* 1em equivale a 16px ou uma fonte tamanho 12*/
+	font-weight: 400; /* Tamanho da fonte que foi imnportada do google fonts*/
+}
+
+h1 {
+	color: #66bbff
+}
+
+.botao1 {
+	text-decoration: none; /* remove o sublinhado do link */
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700; /* vem da fonte importada do google fonts, onde escolhemos bold 700 */
+	border-radius: 5px; /* arredonda os cantos da caixa de texto */
+	border: 0; /* remove a sombra do botão */
+	cursor: pointer; /* muda o cursor de ponteiro para mão */
+}
+
+.botao2 {
+	text-decoration: none; /* remove o sublinhado do link */
+	background-color: #d51213;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700; /* vem da fonte importada do google fonts, onde escolhemos bold 700 */
+	border-radius: 5px; /* arredonda os cantos da caixa de texto */
+}
+
+.adicionar {
+	text-align: left;
+}
+
+.caixa1 {
+	width: 320px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.caixa2 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	/* text-align: left; */
+	margin-top: 30px;
+	border-collapse: collapse; /* elimina os espaços entre as linhas da tabela */
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
+
+
+

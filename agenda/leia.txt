@@ -1,0 +1,44 @@
+- Rodar no tomcat 9.0
+- acessar:
+http://localhost:8080/agenda
+
+----------
+
+Script para criar o banco de dados:
+agenda.sql
+
+Informações sobre a conexão:
+url:
+123.0.0.1:3306/dbagenda
+
+user:
+root
+
+password:
+r007
+
+
+Imagens do projeto:
+www.iconfinder.com
+
+----------
+
+Fontes:
+fonts.google.com
+modelo: Open Sans
+selecionar: regular 400 & bold 700
+na janela a direita: Use on web: @import
+copiar o import que está entre o <style> e </style> e colar no styles.css
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+copiar o que está em 'CSS rules to specify families' e colar dentro da tag body {} do css:
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+adiciopnar ao body:
+	font-size: 1em;
+	font-weight: 400;
