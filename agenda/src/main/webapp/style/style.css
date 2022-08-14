@@ -12,6 +12,22 @@ h1 {
 	color: #66bbff
 }
 
+.formulariocontato {
+	margin: auto; /* centraliza a tabela */
+	width: 340px;
+/*  border: 1px solid #66bbff; */
+/*	border-radius: 5px; /* arredonda os cantos da caixa de texto */
+/*	background-color: #f0f0f0; */
+}
+
+.adicionar {
+	text-align: left;
+}
+
+.centralizabotao1 {
+	text-align: center;
+}
+	
 .botao1 {
 	text-decoration: none; /* remove o sublinhado do link */
 	background-color: #66bbff;
@@ -32,10 +48,6 @@ h1 {
 	font-size: 1.2em;
 	font-weight: 700; /* vem da fonte importada do google fonts, onde escolhemos bold 700 */
 	border-radius: 5px; /* arredonda os cantos da caixa de texto */
-}
-
-.adicionar {
-	text-align: left;
 }
 
 .caixa1 {
@@ -60,22 +72,23 @@ h1 {
 }
 
 #tabela {
-	/* text-align: left; */
+	margin: auto; /* centraliza a tabela */
 	margin-top: 30px;
-	border-collapse: collapse; /* elimina os espaços entre as linhas da tabela */
+	border-collapse: collapse; /* elimina os espacos entre as linhas da tabela */
 }
 
 #tabela th {
 	border: 1px solid #ddd;
 	padding: 10px;
-	text-align: left;
+	text-align: center;
 	background-color: #66bbff;
-	color: #fff
+	color: #fff;
 }
 
 #tabela td {
 	border: 1px solid #ddd;
 	padding: 10px;
+	text-align: left;
 }
 
 

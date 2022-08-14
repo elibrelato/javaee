@@ -8,20 +8,24 @@
 </head>
 <body>
 	<h1>Criar novo contato</h1>
-	<form name="frmContato" class="adicionar" action="insert">
-		<table>
-			<tr>
-				<td><input class="caixa1" type="text" name="nome" placeholder="Nome"></td>
-			</tr>
-			<tr>
-				<td><input class="caixa2"type="text" name="fone" placeholder="Telefone"></td>
-			</tr>
-			<tr>
-				<td><input class="caixa1" type="text" name="email" placeholder="E-mail"></td>
-			</tr>
-		</table>
-		<input class="botao1" type="button" value="Adicionar" onclick="validar()">
-	</form>
+	<div class="formulariocontato">
+		<form name="frmContato" class="adicionar" action="insert">
+			<table class= "novo1">
+				<tr>
+					<td><input class="caixa1" type="text" name="nome" placeholder="Nome"></td>
+				</tr>
+				<tr>
+					<td><input class="caixa2"type="text" name="fone" placeholder="Telefone"></td>
+				</tr>
+				<tr>
+					<td><input class="caixa1" type="text" name="email" placeholder="E-mail"></td>
+				</tr>
+			</table>
+			<div class="centralizabotao1">
+				<input class="botao1" type="button" value="Adicionar" onclick="validar()">
+			</div>
+		</form>
+	</div>
 <script type="text/javascript" src="js/validador.js"></script>
 </body>
 </html>
